@@ -241,4 +241,5 @@ public class Settings extends SettingsActivity {
      */
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
+    public static class VolumeStepsFragmentActivity extends SettingsActivity { /* empty */ }
 }

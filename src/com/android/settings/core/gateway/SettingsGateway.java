@@ -161,6 +161,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.streak.settings.StreakSettings;
+import com.streak.settings.fragments.VolumeStepsFragment;
 
 public class SettingsGateway {
 
@@ -311,6 +312,7 @@ public class SettingsGateway {
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
             StreakSettings.class.getName()
+            VolumeStepsFragment.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -351,5 +353,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.StreakSettingsActivity.class.getName(),
+            Settings.VolumeStepsFragmentActivity.class.getName(),
     };
             }
