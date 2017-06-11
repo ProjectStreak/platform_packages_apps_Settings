@@ -38,6 +38,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
 
+    <!-- Streak version -->
+    <Preference
+        android:key="streak_version"
+        android:title="@string/streak_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.StreakVersionPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"

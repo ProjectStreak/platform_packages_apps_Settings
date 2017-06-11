@@ -25,4 +25,7 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- Streak version -->
+    <string name="streak_version">ProjectStreak version</string>
+
 </resources>
