@@ -78,4 +78,6 @@
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 
     <string name="volumesteps_title">Volume Steps</string>
+
+    <string name="global_actions_title">Power menu</string>
 </resources>
