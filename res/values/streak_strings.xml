@@ -18,4 +18,7 @@
 
     <string name="battery_temp">Battery temperature</string>
 
+    <!-- Control Vibration intensities -->
+    <string name="vibration_intensity_ringer">Ringtone vibration intensity</string>
+    <string name="vibration_intensity_notification">Notification vibration intensity</string>
 </resources>
