@@ -136,4 +136,5 @@
 	
     <!-- Streak maintainer -->
     <string name="maintainer">Streak Maintainer</string>
+    <string name="streak_maintainer">Unofficial Maintainer</string>
 </resources>
