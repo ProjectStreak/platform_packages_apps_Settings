@@ -39,6 +39,14 @@
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
 
     <Preference
+        android:key="top_level_streak_settings"
+        android:title="@string/streak_settings_title"
+        android:summary="@string/streak_settings_summary"
+        android:icon="@drawable/ic_homepage_streak"
+        android:order="-105"
+        android:fragment="com.streak.settings.StreakSettings"/>
+
+    <Preference
         android:key="top_level_apps_and_notifs"
         android:title="@string/app_and_notification_dashboard_title"
         android:summary="@string/app_and_notification_dashboard_summary"

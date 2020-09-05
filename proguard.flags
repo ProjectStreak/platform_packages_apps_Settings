@@ -13,6 +13,8 @@
     *;
 }
 
+-keep class com.streak.streaksettings.**
+
 -keep class * extends com.android.settings.core.TogglePreferenceController {
     *;
 }
