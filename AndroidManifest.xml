@@ -3404,6 +3404,19 @@
                        android:value="com.android.settings.sound.MediaControlsSettings" />
         </activity>
 
+        <!-- StreakSettings -->
+        <activity android:name=".Settings$StreakSettingsActivity"
+            android:label="@string/streak_settings_dash_title"
+            android:icon="@drawable/ic_homepage_streak"
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="69">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.streak.settings.StreakSettings" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

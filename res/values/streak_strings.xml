@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- StreakSettings -->
+    <string name="streak_settings_dash_title">StreakWeive</string>
+    <string name="streak_settings_summary">Make device great again!</string>
+
     <!-- Device Codename -->
     <string name="about_device_name">Device</string>
 
