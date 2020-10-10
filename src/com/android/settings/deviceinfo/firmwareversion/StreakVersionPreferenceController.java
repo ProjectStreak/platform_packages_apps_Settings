@@ -27,6 +27,7 @@ public class StreakVersionPreferenceController extends BasePreferenceController 
     @VisibleForTesting
     private static final String ROM_VERSION_PROP = "ro.streak.version";
     private static final String ROM_RELEASETYPE_PROP = "ro.streak.build.type";
+    private static final String ROM_CODENAME_PROP = "ro.streak.codename";
 
     public StreakVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
@@ -43,9 +44,11 @@ public class StreakVersionPreferenceController extends BasePreferenceController 
                 mContext.getString(R.string.device_info_default));
         String streakReleasetype =  SystemProperties.get(ROM_RELEASETYPE_PROP,
                 this.mContext.getString(R.string.device_info_default));
+        String streakCodename = SystemProperties.get(ROM_CODENAME_PROP,
+                mContext.getString(R.string.device_info_default));
         if (!streakVersion.isEmpty() && !streakReleasetype.isEmpty())
-            return streakVersion + " | " + streakReleasetype;
+            return streakVersion + " | " + streakCodename;
         else
-            return mContext.getString(R.string.streak_version_default);
+            return mContext.getString(R.string.device_info_default);
     }
 }
