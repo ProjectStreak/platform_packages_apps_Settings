@@ -25,7 +25,8 @@ import com.android.settings.core.BasePreferenceController;
 public class StreakVersionPreferenceController extends BasePreferenceController {
 
     @VisibleForTesting
-    private static final String STREAK_VERSION_PROPERTY = "ro.streak.version";
+    private static final String ROM_VERSION_PROP = "ro.streak.version";
+    private static final String ROM_RELEASETYPE_PROP = "ro.streak.build.type";
 
     public StreakVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
@@ -38,7 +39,13 @@ public class StreakVersionPreferenceController extends BasePreferenceController 
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(STREAK_VERSION_PROPERTY,
+        String streakVersion = SystemProperties.get(ROM_VERSION_PROP,
                 mContext.getString(R.string.device_info_default));
+        String streakReleasetype =  SystemProperties.get(ROM_RELEASETYPE_PROP,
+                this.mContext.getString(R.string.device_info_default));
+        if (!streakVersion.isEmpty() && !streakReleasetype.isEmpty())
+            return streakVersion + " | " + streakReleasetype;
+        else
+            return mContext.getString(R.string.streak_version_default);
     }
 }
