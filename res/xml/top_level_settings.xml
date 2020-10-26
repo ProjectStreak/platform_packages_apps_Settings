@@ -31,6 +31,15 @@
         settings:controller="com.android.settings.network.TopLevelNetworkEntryPreferenceController"/>
 
     <Preference
+        android:key="top_level_streak_settings"
+        android:title="@string/streak_settings_dash_title"
+		android:tint="?android:attr/textColorPrimary"
+        android:summary="@string/streak_settings_summary"
+        android:icon="@drawable/ic_homepage_streak"
+        android:order="-115"
+        android:fragment="com.streak.settings.StreakSettings"/>
+
+    <Preference
         android:key="top_level_connected_devices"
         android:title="@string/connected_devices_dashboard_title"
         android:summary="@string/summary_placeholder"
@@ -125,14 +134,6 @@
         android:order="-20"
         android:fragment="com.android.settings.accessibility.AccessibilitySettings"
         settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
-
-    <Preference
-        android:key="top_level_streak_settings"
-        android:title="@string/streak_settings_dash_title"
-        android:summary="@string/streak_settings_summary"
-        android:icon="@drawable/ic_homepage_streak"
-        android:order="9"
-        android:fragment="com.streak.settings.StreakSettings"/>
 
     <Preference
         android:key="top_level_system"
