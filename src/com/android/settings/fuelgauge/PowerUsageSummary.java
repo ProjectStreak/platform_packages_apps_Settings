@@ -69,8 +69,8 @@ import com.android.settingslib.widget.LayoutPreference;
 import java.util.List;
 
 /**
- * Displays a list of apps and subsystems that consume power, ordered by how much power was
- * consumed since the last time it was unplugged.
+ * Displays a list of apps and subsystems that consume power, ordered by how much power was consumed
+ * since the last time it was unplugged.
  */
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class PowerUsageSummary extends PowerUsageBase implements OnLongClickListener,
@@ -245,7 +245,9 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mBatteryTemp = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
         mBatteryUtils = BatteryUtils.getInstance(getContext());
 
-        restartBatteryInfoLoader();
+        if (Utils.isBatteryPresent(getContext())) {
+            restartBatteryInfoLoader();
+        }
         mBatteryTipPreferenceController.restoreInstanceState(icicle);
         updateBatteryTipFlag(icicle);
     }
@@ -358,6 +360,10 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         if (context == null) {
             return;
         }
+        // Skip refreshing UI if battery is not present.
+        if (!mIsBatteryPresent) {
+            return;
+        }
 
         // Skip BatteryTipLoader if device is rotated or only battery level change
         if (mNeedUpdateBatteryTip
@@ -366,7 +372,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         } else {
             mNeedUpdateBatteryTip = true;
         }
-
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
         updateLastFullChargePreference();
@@ -495,6 +500,10 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         if (getContext() == null) {
             return;
         }
+        // Skip restartBatteryInfoLoader if battery is not present.
+        if (!mIsBatteryPresent) {
+            return;
+        }
         getLoaderManager().restartLoader(BATTERY_INFO_LOADER, Bundle.EMPTY,
                 mBatteryInfoLoaderCallbacks);
         if (mPowerFeatureProvider.isEstimateDebugEnabled()) {
@@ -519,6 +528,10 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     @Override
     protected void restartBatteryStatsLoader(@BatteryUpdateType int refreshType) {
         super.restartBatteryStatsLoader(refreshType);
+        // Update battery header if battery is present.
+        if (mIsBatteryPresent) {
+            mBatteryHeaderPreferenceController.quickUpdateHeaderPreference();
+        }
     }
 
     @Override
