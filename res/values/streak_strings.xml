@@ -13,6 +13,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Streak Version -->
+    <string name="streak_version">Streak version</string>
+    <string name="about_device_name">Device</string>
+
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
 
@@ -33,8 +37,5 @@
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
-
-    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
-    <string name="about_device_name">Device</string>
 
 </resources>

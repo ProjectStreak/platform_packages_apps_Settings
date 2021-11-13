@@ -25,14 +25,14 @@
     android:layout="@layout/streak_logo"
     android:key="streak_logo" />
 
-    <!-- Android version -->
+    <!-- Android version
     <Preference
         android:key="os_firmware_version"
         android:title="@string/firmware_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:searchable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>-->
 
     <!-- Device name -->
     <Preference
@@ -41,6 +41,15 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
+
+    <!-- Streak version -->
+    <Preference
+        android:key="streak_version"
+        android:title="@string/streak_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.StreakVersionDetailPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
