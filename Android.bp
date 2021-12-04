@@ -44,7 +44,17 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: [
+        "src/**/*.java",
+        "StreakTweaks/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.streak.tweaks"],
+ 
+    resource_dirs: [
+        "res",
+        "StreakTweaks/res",
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",

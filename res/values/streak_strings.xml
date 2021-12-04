@@ -19,6 +19,10 @@
     <string name="streak_version">Streak version</string>
     <string name="about_device_name">Device</string>
 
+    <!-- Streak Tweaks -->
+    <string name="streak_tweaks_title">Streak Tweaks</string>
+    <string name="streak_tweaks_summary">stinky shit here</string>
+
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
 

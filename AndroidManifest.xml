@@ -4256,6 +4256,24 @@
                   android:theme="@style/SudThemeGlif.Light">
         </activity>
 
+        <!-- Streak Tweaks -->
+        <activity android:name=".Settings$StreakTweaksActivity"
+            android:label="@string/streak_tweaks_title"
+            android:icon="@drawable/ic_streak_tweaks_icon"
+            android:parentActivityName="com.android.settings"
+            android:exported="true">
+            <intent-filter android:priority="69">
+                <action android:name="com.android.settings.STREAK_TWEAKS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.streak.tweaks.StreakTweaks" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
