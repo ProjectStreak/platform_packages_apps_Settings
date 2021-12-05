@@ -42,12 +42,6 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
 
-    <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
-
-    <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
-
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
     <string name="color_mode_balance_category">Color balance</string>
     <string name="color_mode_balance_red">Red strength</string>
