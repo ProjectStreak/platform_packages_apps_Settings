@@ -87,6 +87,7 @@ android_library {
         "VendorSupportLib",
         "glide",
         "faceunlock_framework",
+        "powerusagefeaturegoogle",
     ],
 
     libs: [
@@ -151,4 +152,10 @@ filegroup {
 filegroup {
     name: "Settings_manifest",
     srcs: ["AndroidManifest.xml"],
+}
+
+java_import {
+    name: "powerusagefeaturegoogle",
+    jars: ["libs/powerusagefeaturegoogle.jar"],
+    sdk_version: "current",
 }
