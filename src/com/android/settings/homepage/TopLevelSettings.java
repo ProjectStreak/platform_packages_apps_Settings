@@ -115,6 +115,12 @@ public class TopLevelSettings extends DashboardFragment implements
             if (icon != null) {
                 icon.setTint(tintColor);
             }
+            if (preference.isVisible() && preference.getTitle() != null && 
+                preference.getLayoutResource() != R.layout.top_level_preference_top && 
+                preference.getLayoutResource() != R.layout.top_level_preference_bottom && 
+                preference.getLayoutResource() != R.layout.top_level_preference_alone) {
+                preference.setLayoutResource(R.layout.top_level_preference_middle);
+            }
         }
     }
 

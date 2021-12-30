@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/streak_layout_height_settings"
+    android:layout_marginStart="@dimen/streak_layout_start_margin"
+    android:layout_marginEnd="@dimen/streak_layout_end_margin"
+    android:layout_marginBottom="@dimen/streak_layout_top_margin"
+    android:background="@drawable/streak_preference_alone_background"
+    android:paddingEnd="@dimen/streak_layout_end_padding"
+    android:paddingStart="@dimen/streak_layout_start_padding">
+
+    <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+	    android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginStart="50dp"
+        app:layout_constraintStart_toEndOf="@android:id/icon">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:textColor="?android:attr/textColorSecondary"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

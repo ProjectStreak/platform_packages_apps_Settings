@@ -313,7 +313,7 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
         <item name="android:textSize">@dimen/search_bar_text_size</item>
-        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textColor">?android:attr/colorAccent</item>
         <item name="android:singleLine">true</item>
     </style>
 
@@ -798,7 +798,6 @@
     </style>
 
     <style name="HomepageTitleText" parent="CollapsingToolbarTitle.Expanded">
-        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">@dimen/homepage_title_margin_bottom</item>
         <item name="android:layout_marginHorizontal">@dimen/homepage_title_margin_horizontal</item>
