@@ -3867,6 +3867,10 @@
                 android:value="com.streak.tweaks.StreakTweaks" />
         </activity>
 
+        <activity android:name="com.streak.settings.color.WallpaperColorActivity"
+                  android:theme="@style/Theme.Streak.Fullscreen"
+                  android:exported="true"/>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
