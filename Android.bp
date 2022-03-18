@@ -85,6 +85,7 @@ android_library {
         "lottie",
         "windowExtLib",
         "VendorSupportLib",
+        "glide",
     ],
 
     libs: [
