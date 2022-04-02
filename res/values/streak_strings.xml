@@ -15,9 +15,8 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
 
-    <!-- Streak Version -->
+    <!-- Streak version -->
     <string name="streak_version">Streak version</string>
-    <string name="about_device_name">Device</string>
 
     <!-- Streak Tweaks -->
     <string name="streak_tweaks_title">Streak Tweaks</string>
