@@ -17,7 +17,6 @@
     <!-- Streak version -->
     <string name="streak_version">Wersja Streak</string>
     <!-- Streak Tweaks -->
-    <string name="streak_tweaks_title">Streak Tweaks</string>
     <string name="streak_tweaks_summary">jakieś gówno</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Dotknij, aby wyświetlić informacje</string>
