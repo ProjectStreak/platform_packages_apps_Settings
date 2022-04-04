@@ -13,16 +13,35 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Streak version -->
+    <string name="streak_version">Versi Streak</string>
     <!-- Streak Tweaks -->
+    <string name="streak_tweaks_title">Fitur Streak</string>
+    <string name="streak_tweaks_summary">Menu Lanjutan</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Ketuk Untuk Melihat</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Refresh Rate Minimal</string>
+    <string name="max_refresh_rate_title">Refresh Rate Maksimal</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Kurang Dari 1 Menit</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hari ini</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM Total</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Earbuds yang tersimpan</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Usap untuk tangkapan layar</string>
+    <string name="three_finger_gesture_summary">Usap tiga jari kebawah untuk tangkapan layar</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Keseimbangan warna</string>
+    <string name="color_mode_balance_red">Kepekatan Merah</string>
+    <string name="color_mode_balance_green">Kepekatan Hijau</string>
+    <string name="color_mode_balance_blue">Kepekatan Biru</string>
+    <string name="keywords_color_balance">warna, keseimbangan warna, koreksi warna, merah, hijau, biru, Live Display</string>
 </resources>
