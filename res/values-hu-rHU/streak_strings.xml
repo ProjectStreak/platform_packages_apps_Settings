@@ -13,7 +13,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Streak version -->
+    <string name="streak_version">Streak verzió</string>
     <!-- Streak Tweaks -->
     <!-- String for removal of sensitive info on about, depending on tap -->
     <!-- Refresh rate -->
