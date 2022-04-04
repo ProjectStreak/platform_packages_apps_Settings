@@ -13,34 +13,35 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Sklep Play</string>
+    <string name="app_play_store">Google Play</string>
     <!-- Streak version -->
-    <string name="streak_version">Wersja Streak</string>
+    <string name="streak_version">Streak version</string>
     <!-- Streak Tweaks -->
-    <string name="streak_tweaks_summary">jakieś gówno</string>
+    <string name="streak_tweaks_title">Streak Tweaks</string>
+    <string name="streak_tweaks_summary">stinky shit here</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Dotknij, aby wyświetlić informacje</string>
+    <string name="device_info_protected_single_press">Tap to show info</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimalna częstotliwość odświeżania</string>
-    <string name="max_refresh_rate_title">Maksymalna częstotliwość odświeżania</string>
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Poniżej 1 minuty</string>
+    <string name="duration_less_than_one_minute">Less than 1 minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s dzisiaj</string>
+    <string name="screen_time_summary_usage_today">%1$s today</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platforma</string>
+    <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Całkowita ilość pamięci RAM</string>
+    <string name="total_ram">Total RAM</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Zapisane słuchawki</string>
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Gest zrzutu ekranu</string>
-    <string name="three_finger_gesture_summary">Przesuń trzema palcami w dół, aby wykonać zrzut ekranu</string>
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_category">Balans kolorów</string>
-    <string name="color_mode_balance_red">Poziom czerwonego</string>
-    <string name="color_mode_balance_green">Poziom zielonego</string>
-    <string name="color_mode_balance_blue">Poziom niebieskiego</string>
-    <string name="keywords_color_balance">kolor, balans kolorów, korekta koloru, czerwony, zielony, niebieski, LiveDisplay</string>
+    <string name="color_mode_balance_category">Color balance</string>
+    <string name="color_mode_balance_red">Red strength</string>
+    <string name="color_mode_balance_green">Green strength</string>
+    <string name="color_mode_balance_blue">Blue strength</string>
+    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
 </resources>
