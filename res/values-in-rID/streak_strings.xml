@@ -44,4 +44,6 @@
     <string name="color_mode_balance_green">Kepekatan Hijau</string>
     <string name="color_mode_balance_blue">Kepekatan Biru</string>
     <string name="keywords_color_balance">warna, keseimbangan warna, koreksi warna, merah, hijau, biru, Live Display</string>
+    <!-- Face Unlock -->
+    <!-- Android debugging as root -->
 </resources>
