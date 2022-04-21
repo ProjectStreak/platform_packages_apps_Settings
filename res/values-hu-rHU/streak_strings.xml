@@ -27,4 +27,6 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <!-- Three-fingers-swipe to screenshot -->
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <!-- Face Unlock -->
+    <!-- Android debugging as root -->
 </resources>
