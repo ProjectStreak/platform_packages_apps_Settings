@@ -29,4 +29,6 @@
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
     <!-- Face Unlock -->
     <!-- Android debugging as root -->
+    <!-- Volume button music control -->
+    <!-- Volume link notification -->
 </resources>
