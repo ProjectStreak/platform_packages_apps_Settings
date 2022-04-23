@@ -46,4 +46,6 @@
     <string name="keywords_color_balance">warna, keseimbangan warna, koreksi warna, merah, hijau, biru, Live Display</string>
     <!-- Face Unlock -->
     <!-- Android debugging as root -->
+    <!-- Volume button music control -->
+    <!-- Volume link notification -->
 </resources>
