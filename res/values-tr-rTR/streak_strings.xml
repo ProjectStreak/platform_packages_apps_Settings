@@ -55,4 +55,6 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rootlu hata ayıklama</string>
     <string name="adb_enable_summary_root">Android hata ayıklamanın rootlu olarak çalışmasına izin verin</string>
+    <!-- Volume button music control -->
+    <!-- Volume link notification -->
 </resources>

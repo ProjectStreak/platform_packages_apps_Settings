@@ -45,4 +45,6 @@
     <string name="keywords_color_balance">kolor, balans kolorów, korekta koloru, czerwony, zielony, niebieski, LiveDisplay</string>
     <!-- Face Unlock -->
     <!-- Android debugging as root -->
+    <!-- Volume button music control -->
+    <!-- Volume link notification -->
 </resources>
