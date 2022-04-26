@@ -17,7 +17,6 @@
     <!-- Streak version -->
     <string name="streak_version">Versi Streak</string>
     <!-- Streak Tweaks -->
-    <string name="streak_tweaks_title">Fitur Streak</string>
     <string name="streak_tweaks_summary">Menu Lanjutan</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Ketuk Untuk Melihat</string>
