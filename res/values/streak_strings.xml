@@ -19,7 +19,7 @@
     <string name="streak_version">Streak version</string>
 
     <!-- Streak Tweaks -->
-    <string name="streak_tweaks_title">Streak Tweaks</string>
+    <string name="streak_tweaks_title" translatable="false">Streak Tweaks</string>
     <string name="streak_tweaks_summary">stinky shit here</string>
 
     <!-- String for removal of sensitive info on about, depending on tap -->
