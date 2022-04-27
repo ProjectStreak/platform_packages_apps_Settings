@@ -59,4 +59,5 @@
     <string name="volume_button_music_control_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Połącz głośność dzwonka i powiadomień</string>
+    <!-- Incall vibrate options -->
 </resources>
