@@ -59,4 +59,5 @@
     <string name="volume_button_music_control_summary">Quando lo schermo è spento, premere a lungo i tasti volume salterà le tracce musicali</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
+    <!-- Incall vibrate options -->
 </resources>
