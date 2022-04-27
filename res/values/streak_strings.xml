@@ -19,7 +19,7 @@
     <string name="streak_version">Streak version</string>
 
     <!-- Streak Tweaks -->
-    <string name="streak_tweaks_title">Streak Tweaks</string>
+    <string name="streak_tweaks_title" translatable="false">Streak Tweaks</string>
     <string name="streak_tweaks_summary">stinky shit here</string>
 
     <!-- String for removal of sensitive info on about, depending on tap -->
@@ -73,4 +73,10 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 </resources>
