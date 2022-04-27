@@ -56,4 +56,5 @@
     <string name="adb_enable_summary_root">Android hata ayıklamanın rootlu olarak çalışmasına izin verin</string>
     <!-- Volume button music control -->
     <!-- Volume link notification -->
+    <!-- Incall vibrate options -->
 </resources>
