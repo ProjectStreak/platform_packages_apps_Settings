@@ -41,8 +41,7 @@ public class StreakVersionDetailPreferenceController extends BasePreferenceContr
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
-    private static final String KEY_STREAK_VERSION_PROP = "ro.streak.base.version";
-    private static final String KEY_STREAK_BUILD_TYPE_PROP = "ro.streak.buildtype";
+    private static final String KEY_STREAK_VERSION_PROP = "ro.streak.version";
 
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
@@ -63,12 +62,13 @@ public class StreakVersionDetailPreferenceController extends BasePreferenceContr
 
     @Override
     public CharSequence getSummary() {
-	String streakVer = SystemProperties.get(KEY_STREAK_VERSION_PROP);
-        String streakBuildType = SystemProperties.get(KEY_STREAK_BUILD_TYPE_PROP);
-	if (!streakVer.isEmpty() && !streakBuildType.isEmpty())
-	    return streakVer + " | " + streakBuildType;
-	else
+        String streakVer = SystemProperties.get(KEY_STREAK_VERSION_PROP);
+
+        if (!streakVer.isEmpty()) {
+            return streakVer;
+        } else {
             return mContext.getString(R.string.unknown);
+        }
     }
 
     @Override
