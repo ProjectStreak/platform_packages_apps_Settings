@@ -66,4 +66,5 @@
     <string name="incall_vibrate_disconnect_title">Vibrer lors de la fin de l\'appel</string>
     <!-- Fullscreen gestures -->
     <!-- Gesture navbar length -->
+    <!-- Wifi/Bluetooth auto timeout -->
 </resources>
