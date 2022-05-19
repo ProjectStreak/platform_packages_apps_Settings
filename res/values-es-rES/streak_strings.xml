@@ -15,7 +15,7 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Streak version -->
-    <string name="streak_version">Versión de racha</string>
+    <string name="streak_version">Versión de ROM Streak</string>
     <!-- Streak Tweaks -->
     <string name="streak_tweaks_summary">mierda obscura aquí</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
