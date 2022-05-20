@@ -13,20 +13,82 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Streak version -->
+    <string name="streak_version">Versión de ROM Streak</string>
     <!-- Streak Tweaks -->
+    <string name="streak_tweaks_summary">mierda obscura aquí</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toca para mostrar información</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Frecuencia de actualización mínima</string>
+    <string name="max_refresh_rate_title">Frecuencia de actualización máxima</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hoy</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM total</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Auriculares guardados</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Deslizar para captura de pantalla</string>
+    <string name="three_finger_gesture_summary">Desliza hacia abajo con tres dedos para hacer una captura de pantalla</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Balance de colores</string>
+    <string name="color_mode_balance_red">Intensidad de rojo</string>
+    <string name="color_mode_balance_green">Intensidad de verde</string>
+    <string name="color_mode_balance_blue">Intensidad de azul</string>
+    <string name="keywords_color_balance">color, balance de color, corrección de color, rojo, verde, azul, LiveDisplay</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Elimina los datos faciales existentes y crea uno nuevo</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Rehacer escaneo facial</string>
+    <string name="face_redo_confirm_btn">Rehacer</string>
+    <string name="face_redo_warning_msg">¿Desea eliminar los datos faciales actuales y crear uno nuevo?</string>
+    <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
+    <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
+    <string name="face_unlock_method_swipe">Cuando deslizas en la pantalla de bloqueo</string>
     <!-- Android debugging as root -->
+    <string name="adb_enable_root">Depuración root</string>
+    <string name="adb_enable_summary_root">Permitir ejecutar la depuración de Android como root</string>
     <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Control de reprodución</string>
+    <string name="volume_button_music_control_summary">Cuando la pantalla esté apagada, una pulsación larga en los botones de volumen, cambiará la canción</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Vincular tono &amp; volumen de notificaciones</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opciones de vibración en llamadas</string>
+    <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Otros controles</string>
+    <string name="fullscreen_gestures_title">Gestos a pantalla completa</string>
+    <string name="fullscreen_gestures_summary">Ocultar píldora de navegación y espacio de teclado</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Longitud de píldora</string>
+    <string name="short_label">Corta</string>
+    <string name="long_label">Larga</string>
+    <!-- Wifi/Bluetooth auto timeout -->
+    <string name="wifi_timeout">Tiempo de espera WiFi</string>
+    <string name="wifi_timeout_summary">No desactivar automáticamente el WiFi</string>
+    <string name="wifi_timeout_summary_auto">El Wi-Fi se apagará tras <xliff:g id="timeout_description">%1$s</xliff:g> si no se conectó a ninguna red</string>
+    <string name="bluetooth_timeout">Tiempo de espera de Bluetooth</string>
+    <string name="bluetooth_timeout_summary">No desactivar el Bluetooth automáticamente</string>
+    <string name="bluetooth_timeout_summary_auto">El Bluetooth se desactivará después de <xliff:g id="timeout_description">%1$s</xliff:g> si no hay dispositivos conectados</string>
+    <string name="custom_timeout_summary_never">Nunca</string>
+    <string name="custom_timeout_summary_15secs">15 segundos</string>
+    <string name="custom_timeout_summary_30secs">30 segundos</string>
+    <string name="custom_timeout_summary_1min">1 minuto</string>
+    <string name="custom_timeout_summary_2mins">2 minutos</string>
+    <string name="custom_timeout_summary_5mins">5 minutos</string>
+    <string name="custom_timeout_summary_10mins">10 minutos</string>
+    <string name="custom_timeout_summary_30mins">30 minutos</string>
+    <string name="custom_timeout_summary_1hour">1 hora</string>
+    <string name="custom_timeout_summary_2hours">2 horas</string>
+    <string name="custom_timeout_summary_4hours">4 horas</string>
+    <string name="custom_timeout_summary_8hours">8 horas</string>
 </resources>

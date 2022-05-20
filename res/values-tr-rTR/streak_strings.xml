@@ -17,7 +17,6 @@
     <!-- Streak version -->
     <string name="streak_version">Streak sürümü</string>
     <!-- Streak Tweaks -->
-    <string name="streak_tweaks_title">Streak Ayarları</string>
     <string name="streak_tweaks_summary">stinky shit here</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Bilgileri göstermek için tıkla</string>
@@ -56,5 +55,22 @@
     <string name="adb_enable_root">Rootlu hata ayıklama</string>
     <string name="adb_enable_summary_root">Android hata ayıklamanın rootlu olarak çalışmasına izin verin</string>
     <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
+    <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Arama titreşimi seçenekleri</string>
+    <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Çağrı beklerken titret</string>
+    <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titre</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Diğer kontroller</string>
+    <string name="fullscreen_gestures_title">Tam ekran hareketleri</string>
+    <string name="fullscreen_gestures_summary">Gezinme çubuğu tuşunu ve klavye alanını gizle</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Tuş uzunluğu</string>
+    <string name="short_label">Kısa</string>
+    <string name="long_label">Uzun</string>
+    <!-- Wifi/Bluetooth auto timeout -->
 </resources>

@@ -44,7 +44,51 @@
     <string name="color_mode_balance_blue">Poziom niebieskiego</string>
     <string name="keywords_color_balance">kolor, balans kolorów, korekta koloru, czerwony, zielony, niebieski, LiveDisplay</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Usuń istniejący skan twarzy i utwórz nowy</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Zeskanuj twarz ponownie</string>
+    <string name="face_redo_confirm_btn">Powtórz</string>
+    <string name="face_redo_warning_msg">Czy chcesz usunąć istniejący skan twarzy i utworzyć nowy?</string>
+    <string name="face_unlock_method_title">Zezwól na odblokowywanie twarzą na ekranie blokady</string>
+    <string name="face_unlock_method_default">Gdy ekran jest włączony</string>
+    <string name="face_unlock_method_swipe">Po przesunięciu palcem na ekranie blokady</string>
     <!-- Android debugging as root -->
+    <string name="adb_enable_root">Debugowanie jako root</string>
+    <string name="adb_enable_summary_root">Zezwól na debugowanie Androida jako root</string>
     <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Kontrolowanie odtwarzania</string>
+    <string name="volume_button_music_control_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Połącz głośność dzwonka i powiadomień</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opcji wibracji w trakcie rozmowy</string>
+    <string name="incall_vibrate_connect_title">Wibracja przy połączeniu</string>
+    <string name="incall_vibrate_call_wait_title">Wibracja przy połączeniu oczekującym</string>
+    <string name="incall_vibrate_disconnect_title">Wibracja przy rozłączeniu</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Inne kontrole</string>
+    <string name="fullscreen_gestures_title">Gesty ekranu dotykowego</string>
+    <string name="fullscreen_gestures_summary">Ukryj belkę gestów i przestrzeń pod klawiaturą</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Długość paska gestów</string>
+    <string name="short_label">Krótki</string>
+    <string name="long_label">Długi</string>
+    <!-- Wifi/Bluetooth auto timeout -->
+    <string name="wifi_timeout">Limit czasu WiFi</string>
+    <string name="wifi_timeout_summary">Nie wyłączaj WiFi automatycznie</string>
+    <string name="wifi_timeout_summary_auto">Wi-Fi wyłączy się po <xliff:g id="timeout_description">%1$s</xliff:g> jeśli sieć nie jest podłączona</string>
+    <string name="bluetooth_timeout">Limit czasu Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Nie wyłączaj Bluetooth automatycznie</string>
+    <string name="bluetooth_timeout_summary_auto">Bluetooth zostanie wyłączone po czasie <xliff:g id="timeout_description">%1$s</xliff:g>, jeśli żadne urządzenie nie będzie połączone</string>
+    <string name="custom_timeout_summary_never">Nigdy</string>
+    <string name="custom_timeout_summary_15secs">15 sekund</string>
+    <string name="custom_timeout_summary_30secs">30 sekund</string>
+    <string name="custom_timeout_summary_1min">1 minuta</string>
+    <string name="custom_timeout_summary_2mins">2 minuty</string>
+    <string name="custom_timeout_summary_5mins">5 minut</string>
+    <string name="custom_timeout_summary_10mins">10 minut</string>
+    <string name="custom_timeout_summary_30mins">30 minut</string>
+    <string name="custom_timeout_summary_1hour">1 godzina</string>
+    <string name="custom_timeout_summary_2hours">2 godziny</string>
+    <string name="custom_timeout_summary_4hours">4 godziny</string>
+    <string name="custom_timeout_summary_8hours">8 godzin</string>
 </resources>
